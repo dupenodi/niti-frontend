@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 6fr 1fr;
+    margin-top: 10%;
+}
+
+.header{
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    background-color: aqua;
+    padding: 15px;
+}
+.text{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.select{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.icon{
+    height: 40px;
+    top:50%;
+    text-align: center;
+    margin: auto;
+}
+
+.dot{
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dotArray{
+    width: 100%;
+    text-align: center;
+}
